@@ -31,7 +31,7 @@ const EpisodesList:React.FC<EpisodesListProps> =
                                 key={episode.id}
                                 className="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition duration-300"
                             >
-                                <h2 className="text-lg font-semibold text-gray-800">
+                                <h2 className="text-lg font-semibold text-gray-800 hover:text-blue-500">
                                     {episode.id}.
                                     <Link to={`/episode/${episode.id}`}> {episode.name} </Link>
                                 </h2>

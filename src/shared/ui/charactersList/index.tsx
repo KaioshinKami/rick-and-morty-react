@@ -40,7 +40,7 @@ const CharactersList:React.FC<CharacterListProps> = ({characters, isLoading}) =>
                             className="w-full object-cover"
                         />
                         <div className="p-4">
-                            <h2 className="text-lg font-semibold text-gray-800">
+                            <h2 className="text-lg font-semibold text-gray-800 hover:text-blue-500">
                                 {character.id}.
                                 <Link to={`/characters/${character.id}`}>{character.name}</Link>
                             </h2>
